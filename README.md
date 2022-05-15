@@ -57,10 +57,13 @@ Faciliter le démarrage d'un projet React.
     npm start
 ```
 
-## ⚠ Une fois tu auras finis ton projet. Pour publier ton projet sur GitHub Pages 
+## ⚠ Une fois tu auras finis ton projet. Pour publier ton projet sur GitHub Pages :
 
 Il faut ajouter cette ligne dans le package.json (dans la ligne 2):
- - "homepage":"https://yourUserName.github.io/yourRepositoryName",
+
+```
+"homepage":"https://yourUserName.github.io/yourRepositoryName",
+```
 
 Remplace "yourUserName" par ton User de GitHub et "yourRepositoryName" par le nom de ton repositoire. Maintenant tape la commande suivantes :
 
@@ -72,18 +75,18 @@ Une nouvelle branch va se créer "gh-pages", c'est cette branch qui va être pub
 
 ## Ce qui est fait
 
-L'architecture de notre projet est la suivante :
-    - Template_React
-        - src
-            - assets
-            - components_Children
-            - components_Fathers
-            - pages
-        - App.js
-        - index.js
-        - .gitignore
-        - package.json
-        - README.md
+L'architecture de notre projet est la suivante:
+- Template_React
+    - src
+        - assets
+        - components_Children
+        - components_Fathers
+        - pages
+    - App.js
+    - index.js
+    - .gitignore
+    - package.json
+    - README.md
 
 Alors ici, dans `src/components_Children/RandomApi.jsx`, nous avons un appel à l'API, ça a pour but de tester notre
 packages `axios`.
