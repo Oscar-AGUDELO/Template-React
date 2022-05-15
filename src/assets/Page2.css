@@ -1,0 +1,10 @@
+.Page2DivContainer{
+    margin-top: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
